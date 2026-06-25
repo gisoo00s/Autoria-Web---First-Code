@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+</head>
+
+<body>
+    <h2>Formulario de cadastro</h2>
+    <form action="#">
+        <label for="nome">Nome do participante:</label><br>
+        <input type="text" id="nome" name="Nome" placeholder="Digite o seu nome..."><br>
+
+        <label for="senha">Senha</label><br>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha..."><br>
+
+        <label for="oficina">Oficina Principal:</label><br>
+        <select name="oficina" id="oficina">
+            <option value="Selecione uma oficina">Selecione uma oficina</option>
+            <option>Robótica</option>
+    <option>Programação</option>
+    <option>Desenvolvimento de Jogos</option>
+    <option>Design Gráfico</option>
+    <option>Fotografia</option>
+    <option>Produção de Vídeo</option>
+    <option>Pintura</option>
+    <option>Desenho</option>
+    <option>Teatro</option>
+    <option>Música</option>
+    <option>Dança</option>
+    <option>Xadrez</option>
+    <option>Educação Financeira</option>
+    <option>Empreendedorismo</option>
+    <option>Redação Criativa</option>
+    <option>Ciências Experimentais</option>
+        </select>
+
+        <p>Selecione o turno:</p>
+        <input type="radio" id="manha" name="turno" value="manha">
+        <label for="manha">Manhã</label>
+        <input type="radio" id="tarde" name="turno" value="tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" id="noite" name="turno" value="noite">
+        <label for="noite">Noite</label><br>
+
+    
+        <p>Selecione as suas areas de interesse:</p>
+        <input type="checkbox" id="Robótica" name="Robótica" value="Sim">
+        <label for="Robótica">Robótica</label>
+        <input type="checkbox" id="Design" name="Design" value="Franca">
+        <label for="Design">Design</label>
+        <input type="checkbox" id="Programação web" name="Programação web" value="Programação web">
+        <label for="Programação web">Programação web</label>
+        <input type="checkbox" id="Banco de dados" name="Banco de dados" value="Banco de dados">
+        <label  label for="Banco de dados">Banco de dados</label><br>
+     
+        <br>
+        <label for="Observações">Observações</label><br>
+        <textarea name="observações" id="Observações" rows="5"></textarea><br>
+        
+        <button type="submit" onclick="alert('ENVIADO')">Enviar inscrição</button>
+    </form>
+    <br>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Oficina</th>
+                <th>Turno</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nala Gomes</td>
+                <td>Fotografia</td>
+                <td>manhã</td>
+                <td>Confirmado</td>
+            </tr>
+
+            <tr>
+                <td>Giovanna Souza</td>
+                <td>Teatro</td>
+                <td>Tarde</td>
+                <td>Confirmado</td>
+            </tr>
+
+            <tr>
+                <td>Lygia Fonseca</td>
+                <td>Música</td>
+                <td>Tarde</td>
+                <td>Pendente</td>
+            </tr>
+
+            <tr>
+                <td>Otavio Soares</td>
+                <td>Educação Financeira</td>
+                <td>Tarde</td>
+                <td>Em Análise</td>
+            </tr>
+
+            <tr>
+                <td>Pamela michele</td>
+                <td>Pintura</td>
+                <td>Manhã</td>
+                <td>Pendente</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
