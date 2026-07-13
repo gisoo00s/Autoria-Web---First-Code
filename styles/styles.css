@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
+
+:root {
+    /* 141b41-224377-306bac-6f9ceb-98b9f2-a1bff3 */
+    --Space-Indigo: #141B41;
+    --French-Blue: #224377;
+    --Ocean-deep: #306BAC;
+    --Cornflower-Blue: #6F9CEB;
+    --Baby-Blue-Ice: #98B9F2;
+    --Baby-Blue-Ice-mais-clarinho: #A1BFF3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+body {
+    font-family: 'Geist Pixel', "Arial", sans-serif;
+    color: var(--Ocean-deep)
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #306BAC;
+}
+
+/* Id: serve para especificar */
+#tabela {
+    text-align: center;
+    background-color: #6F9CEB;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+p.courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    font-style: ;
+}
+
+form button {
+    background-color: rgb(42, 61, 165);
+}
+
+img {
+    height: 200px;
+    width: ;
+    border-radius: 10px;
+}
+
+#nav-sections ul {
+    list-style-type: none;
+}
+
+#nav-sections li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Baby-Blue-Ice);
+    background-color: var(#A1BFF3);
+    border-radius: 5px
+}
+
+a:hover {
+    color: var(--Cornflower-Blue);
+    box-shadow: 0 0 5px var(--Cornflower-Blue);
+}
+
+.fonte-maior {
+    font-size: 48px;
+    background-color: var(--Cornflower-Blue);
+    padding-left: 20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #98B9F2;
+}
+
+.teste-espacamento {
+ background-color: #141B41;
+ padding: 20px 40px;
+ margin-bottom: 100px;
+ border-bottom: 10px solid black;
+}
